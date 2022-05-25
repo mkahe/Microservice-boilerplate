@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cvY2kGnQLzbgKSbpuKEzMY5d098KdHxceBMNllijGnCBm6R3EQHbrjC9/7nzttk2KYbCbvPGNxF6EAQOfNQKcA==",
+  "success": true,
+  "projectFilePath": "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/MeKa.Common.csproj",
+  "expectedPackageFiles": [
+    "/home/mehrdad/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/mehrdad/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
