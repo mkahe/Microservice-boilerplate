@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rjCDhRx6BLNxCt7fhIx0pAiYHiAjAaCPtilra604B1yeow0yrf7W0FpSihXMX+L9ubUmIR/Ry0Tl+PuwouoV9A==",
+  "dgSpecHash": "R2Udw6V0x2GPaKnoxHo4F+FSMNYh0uUJt44PrBtqlmxWy+GUdjVqcahIRXt8BeRB7/+x6KrIXUP+TlYxoneywA==",
   "success": true,
   "projectFilePath": "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Services.Identity/MeKa.Services.Identity.csproj",
   "expectedPackageFiles": [],

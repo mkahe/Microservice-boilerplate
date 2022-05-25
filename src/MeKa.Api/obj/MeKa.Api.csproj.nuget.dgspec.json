@@ -25,7 +25,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/MeKa.Common.csproj": {
+                "projectPath": "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/MeKa.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,6 +58,60 @@
               "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.418/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/MeKa.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/MeKa.Common.csproj",
+        "projectName": "MeKa.Common",
+        "projectPath": "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/MeKa.Common.csproj",
+        "packagesPath": "/home/mehrdad/.nuget/packages/",
+        "outputPath": "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mehrdad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/home/mehrdad/RiderProjects/damond-exchange/api/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.418/RuntimeIdentifierGraph.json"
         }
       }

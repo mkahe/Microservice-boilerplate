@@ -1,0 +1,9 @@
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.deps.json
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.pdb
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.csprojAssemblyReference.cache
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.AssemblyInfoInputs.cache
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.AssemblyInfo.cs
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.csproj.CoreCompileInputs.cache
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.pdb

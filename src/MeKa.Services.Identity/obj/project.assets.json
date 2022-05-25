@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MeKa.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MeKa.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MeKa.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MeKa.Common/1.0.0": {
+      "type": "project",
+      "path": "../MeKa.Common/MeKa.Common.csproj",
+      "msbuildProject": "../MeKa.Common/MeKa.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "MeKa.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/mehrdad/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/MeKa.Common.csproj": {
+              "projectPath": "/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Common/MeKa.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
