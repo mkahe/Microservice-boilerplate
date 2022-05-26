@@ -21,3 +21,11 @@
 /home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.dll
 /home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.pdb
 /home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.genruntimeconfig.cache
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/bin/Debug/netcoreapp3.1/RabbitMQ.Client.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/bin/Debug/netcoreapp3.1/RawRabbit.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/bin/Debug/netcoreapp3.1/RawRabbit.DependencyInjection.ServiceCollection.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/bin/Debug/netcoreapp3.1/RawRabbit.Operations.Publish.dll
+/home/mehrdad/RiderProjects/github/Microservice-boilerplate/src/MeKa.Api/bin/Debug/netcoreapp3.1/RawRabbit.Operations.Subscribe.dll
