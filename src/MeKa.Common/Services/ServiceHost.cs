@@ -25,7 +25,7 @@ namespace MeKa.Common.Services
             Console.Title = typeof(TStartup).Namespace;
             var config = new ConfigurationBuilder()
                 .AddEnvironmentVariables()
-                //.AddCommandLine(args)
+                .AddCommandLine(args)
                 .Build();
 
             var webHostBuilder = WebHost.CreateDefaultBuilder(args)

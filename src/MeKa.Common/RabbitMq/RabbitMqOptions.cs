@@ -1,6 +1,8 @@
+using RawRabbit.Configuration;
+
 namespace MeKa.Common.RabbitMq
 {
-    public class RabbitMqOptions
+    public class RabbitMqOptions : RawRabbitConfiguration
     {
         
     }
