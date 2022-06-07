@@ -9,7 +9,14 @@
     <projectFile profileName="MeKa.Services.Activities">src/MeKa.Services.Activities/MeKa.Services.Activities.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf0fc7c-2046-4ee5-a650-0911bcf1eb37" name="Changes" comment="" />
+    <list default="true" id="0bf0fc7c-2046-4ee5-a650-0911bcf1eb37" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MeKa.Api/Controllers/ActivitiesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MeKa.Api/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MeKa.Api/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservice-boilerplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservice-boilerplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/MeKa.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/MeKa.Api.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +29,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de3f4f10265f403fb136205e929f916630200/5a/d6083eda/BusClient.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -142,6 +152,7 @@
       <updated>1653506316305</updated>
       <workItem from="1653506324520" duration="3594000" />
       <workItem from="1653543457396" duration="7607000" />
+      <workItem from="1654629927926" duration="1088000" />
     </task>
     <servers />
   </component>
