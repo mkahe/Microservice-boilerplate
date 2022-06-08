@@ -9,7 +9,30 @@
     <projectFile profileName="MeKa.Services.Activities">src/MeKa.Services.Activities/MeKa.Services.Activities.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf0fc7c-2046-4ee5-a650-0911bcf1eb37" name="Changes" comment="" />
+    <list default="true" id="0bf0fc7c-2046-4ee5-a650-0911bcf1eb37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservice-boilerplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservice-boilerplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/Services/ServiceHost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/Services/ServiceHost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Services.Activities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Services.Activities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Services.Activities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Services.Activities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +47,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/27f4e2a659dc1611fafd3ccdd4d6c4b6d8c1f5a86a06440af861fad44d59c/ConfigureServicesBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9397f48ad5ea195ac4014914c3e75c9fc61aa728c7091cf2e5d2d1bd3de7954/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de3f4f10265f403fb136205e929f916630200/5a/d6083eda/BusClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de3f4f10265f403fb136205e929f916630200/61/541b372e/RawRabbitFactory.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -39,9 +64,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MeKa.Api">
@@ -147,6 +174,7 @@
       <workItem from="1653506324520" duration="3594000" />
       <workItem from="1653543457396" duration="7607000" />
       <workItem from="1654629927926" duration="5342000" />
+      <workItem from="1654711943972" duration="2527000" />
     </task>
     <servers />
   </component>
@@ -168,6 +196,26 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/MeKa.Api/Controllers/ActivitiesController.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/src/MeKa.Api/Controllers/ActivitiesController.cs" initialLine="19" containingFunctionPresentation="method 'Post'">
+            <startOffsets>
+              <option value="519" />
+            </startOffsets>
+            <endOffsets>
+              <option value="520" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

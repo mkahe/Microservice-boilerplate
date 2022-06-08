@@ -5,6 +5,7 @@ using MeKa.Common.RabbitMq;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using RawRabbit;
 
 namespace MeKa.Common.Services
@@ -75,15 +76,19 @@ namespace MeKa.Common.Services
 
             public BusBuilder SubscribeToCommand<TCommand>() where TCommand : ICommand
             {
-                var handler = (ICommandHandler<TCommand>)_webHost.Services.GetService(typeof(ICommandHandler<TCommand>));
-                _bus.WithCommandHandlerAsync(handler);
+                using (var scope = _webHost.Services.CreateScope()) {
+                    var handler = (ICommandHandler<TCommand>)scope.ServiceProvider.GetService(typeof(ICommandHandler<TCommand>));
+                    _bus.WithCommandHandlerAsync(handler);
+                }
                 return this;
             }
             
             public BusBuilder SubscribeToEvent<TEvent>() where TEvent : IEvent
             {
-                var handler = (IEventHandler<TEvent>)_webHost.Services.GetService(typeof(IEventHandler<TEvent>));
-                _bus.WithEventHandlerAsync(handler);
+                using (var scope = _webHost.Services.CreateScope()) {
+                    var handler = (IEventHandler<TEvent>)scope.ServiceProvider.GetService(typeof(IEventHandler<TEvent>));
+                    _bus.WithEventHandlerAsync(handler);
+                }
                 return this;
             }
             
