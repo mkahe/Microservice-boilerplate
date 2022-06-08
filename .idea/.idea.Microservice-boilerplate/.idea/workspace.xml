@@ -9,54 +9,7 @@
     <projectFile profileName="MeKa.Services.Activities">src/MeKa.Services.Activities/MeKa.Services.Activities.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf0fc7c-2046-4ee5-a650-0911bcf1eb37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MeKa.Api/Handlers/ActivityCreatedHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MeKa.Common/RabbitMq/RabbitMqOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/Handlers/CreateActivityHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservice-boilerplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservice-boilerplate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Api/obj/Debug/netcoreapp3.1/MeKa.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/Events/IAuthenticatedEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/Events/IAuthenticatedEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/RabbitMq/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/RabbitMq/Extensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/Services/ServiceHost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/Services/ServiceHost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/bin/Debug/netstandard2.0/MeKa.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Common/obj/Debug/netstandard2.0/MeKa.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/MeKa.Services.Activities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/MeKa.Services.Activities.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Services.Activities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Services.Activities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Services.Activities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/MeKa.Services.Activities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Activities/obj/Debug/netcoreapp3.1/MeKa.Services.Activities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/MeKa.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/MeKa.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/MeKa.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/MeKa.Services.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/MeKa.Services.Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/MeKa.Services.Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/MeKa.Services.Identity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/obj/Debug/netcoreapp3.1/MeKa.Services.Identity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/obj/Debug/netcoreapp3.1/MeKa.Services.Identity.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/obj/Debug/netcoreapp3.1/MeKa.Services.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/obj/Debug/netcoreapp3.1/MeKa.Services.Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeKa.Services.Identity/obj/Debug/netcoreapp3.1/MeKa.Services.Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeKa.Services.Identity/obj/Debug/netcoreapp3.1/MeKa.Services.Identity.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="0bf0fc7c-2046-4ee5-a650-0911bcf1eb37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +146,7 @@
       <updated>1653506316305</updated>
       <workItem from="1653506324520" duration="3594000" />
       <workItem from="1653543457396" duration="7607000" />
-      <workItem from="1654629927926" duration="5265000" />
+      <workItem from="1654629927926" duration="5342000" />
     </task>
     <servers />
   </component>
