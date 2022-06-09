@@ -1,4 +1,5 @@
 using System;
+using MeKa.Common.Exceptions;
 
 namespace MeKa.Services.Activities.Domain.Models
 {
@@ -18,6 +19,12 @@ namespace MeKa.Services.Activities.Domain.Models
         public Activity(Guid id, Category category, Guid userId,
             string name, string description, DateTime createdAt)
         {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new CustomException("invalid_activity_name", 
+                    $"The activity name cannot be empty.");
+            }
+            
             Id = id;
             Category = category.Name;
             UserId = userId;
