@@ -4,8 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using MeKa.Common.Commands;
 using MeKa.Common.Events;
+using MeKa.Common.Mongo;
 using MeKa.Common.RabbitMq;
+using MeKa.Services.Activities.Domain.Repositories;
 using MeKa.Services.Activities.Handlers;
+using MeKa.Services.Activities.Repositories;
+using MeKa.Services.Activities.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,8 +34,12 @@ namespace MeKa.Services.Activities
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMongoDB(Configuration);
             services.AddRabbitMq(Configuration);
             services.AddScoped<ICommandHandler<CreateActivity>, CreateActivityHandler>();
+            services.AddScoped<IActivityRepository, ActivityRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IDatabaseSeeder, CustomMongoSeeder>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +60,10 @@ namespace MeKa.Services.Activities
             {
                 endpoints.MapControllers();
             });
+            using (var scope = app.ApplicationServices.CreateScope())
+            {
+                scope.ServiceProvider.GetService<IDatabaseInitializer>().InitializeAsync();
+            }
         }
     }
 }

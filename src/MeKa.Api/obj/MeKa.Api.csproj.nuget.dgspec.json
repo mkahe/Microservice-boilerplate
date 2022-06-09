@@ -103,6 +103,10 @@
               "target": "Package",
               "version": "[2.2.7, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
